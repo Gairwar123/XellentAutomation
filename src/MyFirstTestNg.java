@@ -6,6 +6,6 @@ public class MyFirstTestNg {
 	
 	public void Login() {
 		
-		System.out.println("In Login Page:");
+		System.out.println("In LOGIN Page:");
 	}
 }
