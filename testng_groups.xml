@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression">
+
+	<groups>
+		<run>
+			<include name="Sanity"/>
+		</run>
+	
+	</groups>
+	<test name="Login">
+
+		<classes>
+
+			<class name="testpackage.TestNGGroups" />
+			
+			<class name="TestNGFirstClass" />
+
+		</classes>
+
+
+	</test>
+
+</suite>

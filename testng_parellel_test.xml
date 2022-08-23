@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression" parallel ="tests" thread-count="3">
+	<test name="Linkedin Login">
+		<classes>
+			<class name="testpackage.ParallelMethodExecution" />
+		</classes>
+	</test>
+	<test name="Fb Login">
+		<classes>
+			<class name="testpackage.TestFbLogin" />
+		</classes>
+	</test>
+</suite>

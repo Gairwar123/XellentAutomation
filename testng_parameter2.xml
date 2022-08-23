@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression">
+
+  <test name="Login">
+    <parameter name="browser" value="chrome"/>
+     <classes>
+         <class name="testpackage.TestNGParameter"/>
+     </classes>
+  </test> 
+  
+  <test name="Friend Request">
+    <parameter name="browser" value="firfox"/>
+     <classes>
+         <class name="testpackage.TestNGParameter2"/>
+     </classes>
+  </test> 
+</suite>
